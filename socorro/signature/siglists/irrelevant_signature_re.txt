@@ -311,3 +311,8 @@ std::_Atomic
 std::_Fetch
 std::_Load
 std::_Store
+
+# chromium sandbox CHECK() failures
+logging::CheckError::~CheckError
+logging::LogMessage::~LogMessage
+logging::Win32ErrorLogMessage::~Win32ErrorLogMessage
